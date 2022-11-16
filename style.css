@@ -1,0 +1,72 @@
+HTML{
+    background-image: linear-gradient(black, #222222);
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.landing{
+    text-align: center;
+    padding-bottom: 450px;
+}
+.landing a{
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin: 0 0;
+
+}
+.landing h4{
+    color: red;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 0;
+    padding-top: 250px;
+}
+.landing p{
+    opacity: 55%;
+    margin: 0 0;
+}
+header{
+    background: black
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+#sketch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.class1{
+    font-family: "Comic Sans MS";
+    font-size: 48px;
+}
+h4{
+    text-align: center;
+
+}
+img{
+    align-content: center;
+    padding-right: 25px;
+}
+ul li{
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+}
+.canvas_class{
+    transform: translateX(50vw);
+
+    /*font-size: 48px;*/
+}
